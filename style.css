@@ -1,0 +1,49 @@
+body {
+
+    background-color: black;
+}
+
+.logo {
+
+    text-align: center;
+}
+
+.botão {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+}
+
+    .botão button {
+        padding: 17px 35px;
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        border: none;
+        border-radius: 18px;
+        cursor: pointer;
+        transition: background-color 0.4s ease;
+    }
+
+    .botão button:hover {
+        background-color: #0056b3;
+    }
+
+
+    
+    .rodape {
+
+        color: white;
+        padding: 10px;
+        padding: 80px;
+        font-size: 19px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+        }
+
+        .teaser img {
+            width: 440px;
+             /* Valor desejado para a largura da imagem */
+          }
